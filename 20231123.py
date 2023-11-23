@@ -6,7 +6,7 @@ class employee:
         self.salary = salary
         self.departmant = departmant
 
-    #計算班時速>50計算加班費用
+    #計算加班時速>50計算加班費用
     def calculate_salary (self,hours_worked):
         if hours_worked > 50:
             overtime = hours_worked - 50
